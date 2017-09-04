@@ -56,7 +56,7 @@ http://ls.lkme.cc/linkservice/api/materials?linkedmeKey=7e289a2484f4368dbafbd1e5
 | type | Int | Required |  <div>0\. 橱窗广告</div><div>1\. Banner广告</div><div>2\. 贴片广告</div>|
 | userId | String | optional | 媒体方给用户的标识 |
 | userAge | String | optional | 出生年月日，例：19910102 |
-| userGender  | String | optional | 性别：</br>M男性</br>F：女性</br>O：未知</br>(不填写默认为O) |
+| userGender  | String | optional | 性别：<br>M男性<br>F：女性<br>O：未知<br>(不填写默认为O) |
 | userTag | String | optional | 用户兴趣爱好等，用逗号分割 |
 
 
