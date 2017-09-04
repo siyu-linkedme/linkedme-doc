@@ -1,7 +1,7 @@
 # LinkService API 对接文档
 
 
-</br>
+<br>
 
 > 描述
 
@@ -94,7 +94,7 @@ http://ls.lkme.cc/linkservice/uploadstatus?video_id=1&window_id=1_1_1&idfa=123-a
 | --- | --- | --- | --- |
 | linkedmeKey | String | Required | 媒体方Key |
 | windoID | String | Required | 标识广告位 |
-| status | String |Required  | 展示广告，status值为11</br>点击广告，status值为12</br>唤起APP，status值为13 </br>点击广告，没有唤起APP，status值为14</br>点击广告，去下载APP，status值为15 |
+| status | String |Required  | 展示广告，status值为11<br>点击广告，status值为12<br>唤起APP，status值为13 <br>点击广告，没有唤起APP，status值为14<br>点击广告，去下载APP，status值为15 |
 
 
 
