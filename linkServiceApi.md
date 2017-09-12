@@ -47,6 +47,7 @@ http://ls.lkme.cc/linkservice/api/materials?linkedmeKey=7e289a2484f4368dbafbd1e5
 | 字段 | 类型 | 是否必填 | 描述 |
 | --- | --- | --- | --- |
 | linkedmeKey | String | Required  | 媒体方标识 |
+| adPositionId | String | Required  | 广告位 |
 | title | String | Required  | 视频标题 |
 | keywords | String | Required  | 视频关键字 |
 | videoLength | String | Required  | 视频时长 |
@@ -57,6 +58,10 @@ http://ls.lkme.cc/linkservice/api/materials?linkedmeKey=7e289a2484f4368dbafbd1e5
 | userAge | String | optional | 出生年月日，例：19910102 |
 | userGender  | String | optional | 性别：</br>M男性</br>F：女性</br>O：未知</br>(不填写默认为O) |
 | userTag | String | optional | 用户兴趣爱好等，用逗号分割 |
+| randomOne | String | optional | "1":随机获取一条广告 不传该参数正常获取广告 |
+
+
+
 
 
 
