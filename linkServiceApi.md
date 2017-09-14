@@ -81,7 +81,7 @@ GET
 
 > 示例
 
-http://ls.lkme.cc/linkservice/uploadstatus?video_id=1&window_id=1_1_1&idfa=123-abc&status=14&app_key=123
+http://ls.lkme.cc/linkservice/api/uploadstatus?videoId=1&windowId=1_1_1&idfa=123-abc&status=14&linkedmeKey=123
 
 > 返回
 
@@ -97,8 +97,10 @@ http://ls.lkme.cc/linkservice/uploadstatus?video_id=1&window_id=1_1_1&idfa=123-a
 | 字段 | 类型 | 是否必须 | 备注 |
 | --- | --- | --- | --- |
 | linkedmeKey | String | Required | 媒体方Key |
-| windoID | String | Required | 标识广告位 |
+| windoId | String | Required | 标识广告位 |
 | status | String |Required  | 展示广告，status值为11</br>点击广告，status值为12</br>唤起APP，status值为13 </br>点击广告，没有唤起APP，status值为14</br>点击广告，去下载APP，status值为15 |
+| idfa | String | no | ios设备标识 |
+| imei | String | no | android设备标识 |
 
 
 
